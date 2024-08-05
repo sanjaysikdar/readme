@@ -68,6 +68,11 @@ run the following commands.
 mongorestore --uri=mongodb://127.0.0.1:27017/tidypigeon tidy-db/
 ```
 
+```bash
+
+mongorestore --uri=mongodb://127.0.0.1:27017/tidypigeon --gzip tidy-db/
+```
+
 ----
 Open MongoDB Compass
 
